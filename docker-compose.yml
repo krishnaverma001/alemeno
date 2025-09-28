@@ -6,9 +6,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_DB=alemeno
-      - POSTGRES_USER=assignment
-      - POSTGRES_PASSWORD=12345678
+      - POSTGRES_DB=${NAME}
+      - POSTGRES_USER=${USER}
+      - POSTGRES_PASSWORD=${PASSWORD}
     ports:
       - "5432:5432"
 
