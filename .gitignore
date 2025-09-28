@@ -1,2 +1,39 @@
-/.env
-/.venv/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyt
+*.pyo
+*.env
+*.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+/media
+/staticfiles/
+celerybeat-schedule
+
+# Excel / data files (optional)
+# Ignore local Excel files if you don't want to commit them
+# data/*.xlsx
+
+# Docker
+*.env
+*.pid
+*.sock
+docker-compose.override.yml
+*.swp
+
+# IDEs / editors
+.vscode/
+.idea/
